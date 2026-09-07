@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+*.tfstate
+*.tfstate.*
+secrets.*
+credentials.*
+.DS_Store
+Thumbs.db
