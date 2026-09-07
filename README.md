@@ -1,3 +1,17 @@
+## Architecture Overview
+
+The following reference architecture shows a production-oriented Umbraco hosting model on Microsoft Azure, designed for high-traffic websites, independent frontend scaling, secured backoffice access, private Azure services, controlled outbound networking, monitoring, and CI/CD.
+
+<p align="center">
+  <img
+    src="docs/images/umbraco-azure-reference-architecture.png"
+    alt="Production Umbraco Hosting on Azure reference architecture"
+    width="100%"
+  />
+</p>
+
+> This architecture is intentionally generic and contains no customer-specific resource names, IP addresses, domains, credentials, or subscription information.
+
 # Production Umbraco Hosting on Azure — Reference Architecture
 
 A practical, security-conscious reference architecture for running **Umbraco CMS on Microsoft Azure** with separate public frontend and protected backoffice/publishing roles, shared state, controlled outbound networking, Private Endpoints, edge protection, and Azure DevOps-based deployments.
